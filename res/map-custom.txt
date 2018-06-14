@@ -1,0 +1,54 @@
+# You should put your custom graph data in here.
+
+IMAGE
+map-custom.jpg
+1743
+1223
+
+VERTICES
+Uni Wien;348;253
+Rathaus;114;388
+MQ; 223;780
+Mariahilfer Str;27;1060
+Volkstheater;334;896
+Lothringer;635;1045
+Stadtpark;1027;900
+Rochusgasse;1551;973
+Nestroy Platz;1266;202
+Marien Bruecke;990;350
+Herrengasse;512;490
+Stephans Platz;744;556
+Prater;1632;78
+Hofburg;503;641
+Donau;734;65
+Burggarten;522;814
+Parlament;288;590
+
+
+EDGES
+Uni Wien;Rathaus;100
+Rathaus;MQ;120
+Mariahilfer Str;Rathaus;250;
+Rathaus;Prater;700
+Rathaus;Stephans Platz;100
+Stephans Platz;MQ;200
+Stephans Platz;Stadtpark;150
+Stephans Platz;Hofburg;120
+Stephans Platz;Herrengasse;200
+Herrengasse;Hofburg;70
+Parlament;Stephans Platz;300
+Parlament;Burggarten;100
+Parlament;MQ;220
+Volkstheater;MQ;20
+Volkstheater;Parlament;110
+Nestroy Platz;Stephans Platz;400
+Stephans Platz;Prater;450
+Nestroy Platz;Prater;420
+Prater;Donau;360
+Donau;Lothringer;400
+Donau;Rochusgasse;600
+Donau;Mariahilfer Str;320
+Mariahilfer Str; Lothringer;150
+Lothringer;Stadtpark;180
+Stadtpark;Rochusgasse;250
+Rochusgasse;Prater;400
